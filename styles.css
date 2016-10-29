@@ -680,6 +680,25 @@ main > div{
             
 /* Post Meta */
 
+.tags{
+   margin:0px;
+}
+.tags li{
+   list-style-type:none;
+   display:inline-block;
+}
+.tags li a{
+   font-size:11px;
+   margin-right:5px;
+   color: rgba(170,170,170,0.6);
+}
+.tags li a:hover{
+   color: #d83621;
+}
+.tags li a:before{
+   content: '#';
+}
+
 .post-meta a{
     font-size: 17px;
     display: inline-block;
